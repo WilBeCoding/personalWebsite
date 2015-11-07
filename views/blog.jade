@@ -1,0 +1,86 @@
+extends secondaryHeader
+
+block content
+    main#main
+      .container
+        .row.topspace
+          .col-sm-8.col-sm-offset-2
+            article.post
+              header.entry-header
+                .entry-meta
+                  span.posted-on
+                    time.entry-date.published(date='2013-09-27') September 27, 2013
+                h1.entry-title
+                  a(href='single.html', rel='bookmark') Hello world!
+              .entry-content
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, molestias, architecto, adipisci, numquam dolor iusto eos reprehenderit placeat quam debitis quas magni eveniet. Saepe, nam, iste consectetur quae necessitatibus dolores provident veritatis possimus rerum facilis quia dicta itaque sapiente iusto natus quidem magni quibusdam. Explicabo nesciunt vel rem obcaecati reprehenderit eveniet culpa repudiandae. Distinctio, quia, provident illum necessitatibus repellendus rem voluptates exercitationem numquam inventore itaque atque sint nihil eveniet consequuntur eius! Laborum, at sit animi quae quidem ex tempora facilis.
+            article.post
+              header.entry-header
+                .entry-meta
+                  span.posted-on
+                    time.entry-date.published(date='2013-06-17') June 17, 2013
+                h1.entry-title
+                  a(href='single.html', rel='bookmark') Vivamus Lacus Mauris
+              .entry-content
+                p
+                  img(alt='', src='../images/mac.jpg')
+                p
+                  | Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. 
+                  a.more-link(href='single.html') Continue reading…
+            // #post-##
+            article.post
+              header.entry-header
+                .entry-meta
+                  span.posted-on
+                    time.entry-date.published(date='2013-06-17') June 17, 2013
+                h1.entry-title
+                  a(href='single.html', rel='bookmark') Vivamus Lacus Mauris
+              .entry-content
+                p
+                  | Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.
+            // #post-##
+            article.post
+              header.entry-header
+                .entry-meta
+                  span.posted-on
+                    time.entry-date.published(date='2013-04-04') April 4, 2013
+                h1.entry-title
+                  a(href='single.html', rel='bookmark') Maecenas Quisque Suspendisse Lorem
+              .entry-content
+                p
+                  | Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. 
+                  a.more-link(href='single.html') Continue reading…
+            // #post-##
+            article.post
+              header.entry-header
+                .entry-meta
+                  span.posted-on
+                    time.entry-date.published(date='2013-03-20') March 20, 2013
+                h1.entry-title
+                  a(href='single.html', rel='bookmark') Pellentesque Eget Convallis
+              .entry-content
+                p
+                  | Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. 
+                  a.more-link(href='single.html') Continue reading…
+            // #post-##
+        center
+          ul.pagination
+            li.disabled
+              a(href='') «
+            li.active
+              a(href='') 1
+            li
+              a(href='') 2
+            li
+              a(href='') 3
+            li
+              a(href='') 4
+            li
+              a(href='') 5
+            li
+              a(href='') 6
+            li
+              a(href='') »
+      // /container
+include footer

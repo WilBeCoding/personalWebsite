@@ -1,0 +1,203 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='Sergey Pozhilov (GetTemplate.com)')
+    title Wil Rondini
+    link(rel='shortcut icon', href='../images/gt_favicon.png')
+    // Bootstrap
+    link(href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css', rel='stylesheet')
+    // Icons
+    link(href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', rel='stylesheet')
+    // Fonts
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700')
+    // Custom styles
+    link(rel='stylesheet', href='../stylesheets/style.css')
+    //if lt IE 9
+    script(src='../javascripts/html5shiv.js')
+  body.home
+    header#header
+      #head.parallax(parallax-speed='2')
+        h1#logo.text-center
+          img.img-circle(src='../images/daPhuck.jpg', alt='')
+          span.title Wilson Rondini
+          span.tagline
+            | The Man. The Legend.
+            br
+            a(href='') wilbecoding@gmail.com
+      nav.navbar.navbar-default.navbar-sticky
+        .container-fluid
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          .navbar-collapse.collapse
+            ul.nav.navbar-nav
+              li.active
+                a(href='/') Home
+              li
+                a(href='about') About
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  | More Pages 
+                  b.caret
+                ul.dropdown-menu
+                  li
+                    a(href='leftSidebar') Left Sidebar
+                  li
+                    a(href='rightSidebar') Right Sidebar
+                  li
+                    a(href='single') Blog Post
+              li
+                a(href='blog') Blog
+          // /.nav-collapse
+    main#main
+      .container
+        .row.section.topspace
+          .col-md-12
+            p.lead.text-center.text-muted
+              | Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you 
+              a(href='about') measure
+              |  yourself by the people who measure themselves by you. it only took me 
+              a(href='sidebar-right.html') six days
+              | .
+        // / section
+        .row.section.featured.topspace
+          h2.section-title
+            span Services
+          .row
+            .col-sm-6.col-md-3
+              h3.text-center Website design
+              p
+                | I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.
+              p.text-center
+                a.btn.btn-action(href='') Read more
+            .col-sm-6.col-md-3
+              h3.text-center Wordpress integration
+              p
+                | I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.
+              p.text-center
+                a.btn.btn-action(href='') Read more
+            .col-sm-6.col-md-3
+              h3.text-center Application development
+              p
+                | I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.
+              p.text-center
+                a.btn.btn-action(href='') Read more
+            .col-sm-6.col-md-3
+              h3.text-center SEO & SEM services
+              p
+                | I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.
+              p.text-center
+                a.btn.btn-action(href='') Read more
+        // / section
+        .row.section.recentworks.topspace
+          h2.section-title
+            span Recent Works
+          .thumbnails.recentworks.row
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4
+              a.thumbnail(href='sidebar-right.html')
+                span.img
+                  img(src='../images/s1.jpg', alt='')
+                  span.cover
+                    span.more See details →
+                span.title Sample title - big data solutions
+              span.details
+                a(href='') Web design
+                |  
+                a(href='') Wordpress
+                |  
+                a(href='') Logotype
+              h4
+              p
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4
+              a.thumbnail(href='sidebar-right.html')
+                span.img
+                  img(src='../images/s1.jpg', alt='')
+                  span.cover
+                    span.more See details →
+                span.title Pure ipsum - development services for people
+              span.details
+                a(href='') Web design
+                |  
+                a(href='') Wordpress
+              h4
+              p
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4
+              a.thumbnail(href='sidebar-right.html')
+                span.img
+                  img(src='../images/s1.jpg', alt='')
+                  span.cover
+                    span.more See details →
+                span.title Lorem studios - interior and patio design
+              span.details
+                a(href='') Web design
+                |  
+                a(href='') Logotype
+              h4
+              p
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4
+              a.thumbnail(href='sidebar-right.html')
+                span.img
+                  img(src='../images/s1.jpg', alt='')
+                  span.cover
+                    span.more See details →
+                span.title Pure ipsum - development services for people
+              span.details
+                a(href='') Web design
+                |  
+                a(href='') Wordpress
+              h4
+              p
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4
+              a.thumbnail(href='sidebar-right.html')
+                span.img
+                  img(src='../images/s1.jpg', alt='')
+                  span.cover
+                    span.more See details →
+                span.title Lorem studios - interior and patio design
+              span.details
+                a(href='') Web design
+                |  
+                a(href='') Logotype
+              h4
+              p
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4
+              a.thumbnail(href='sidebar-right.html')
+                span.img
+                  img(src='../images/s1.jpg', alt='')
+                  span.cover
+                    span.more See details →
+                span.title Lorem studios - interior and patio design
+              span.details
+                a(href='') Web design
+                |  
+                a(href='') Logotype
+              h4
+              p
+        // /section
+        .row.section.topspace
+          .panel.panel-cta
+            .panel-body
+              .col-lg-8
+                p
+                  | A simple, nice-looking 
+                  b call to action box
+                  | . Boxing is about respect. getting it for yourself,
+                  |           and taking it away from the other guy. no, this is mount everest.
+              .col-lg-4.text-right
+                a.btn.btn-primary.btn-lg(href='http://www.gettemplate.com/downloads/initio.zip ') Download template
+        // /section
+        .row.section.clients.topspace
+          h2.section-title
+            span Clients
+          .col-lg-12
+            p
+              img(src='../images/sample_clients.png', alt='')
+        // /section
+      // /container
+include footer
