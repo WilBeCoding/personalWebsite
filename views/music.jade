@@ -1,6 +1,6 @@
-extends secondaryHeader
-
-block content
+doctype html
+html(lang='en')
+    include secondaryHeader
     main#main
       .container
         .row.topspace
@@ -9,7 +9,7 @@ block content
             header.page-header
               h1.page-title Lorem ipsum dolor sit amet, consectetur.
             p
-              img(src='assets/images/s2.jpg', alt='')
+              img(src='../images/albumcover.jpg', alt='')
             p
               | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
             h3 Necessitatibus
@@ -46,4 +46,5 @@ block content
                 li Voluptate, labore non adipisci nihil!
           // /Sidebar
       // /container
-include footer
+
+  include footerPlaceholder

@@ -14,8 +14,8 @@ router.get('/blog', function(req, res, next) {
     res.render('blog');
 })
 
-router.get('/rightSidebar', function(req, res, next) {
-    res.render('sidebar-right');
+router.get('/music', function(req, res, next) {
+    res.render('music');
 })
 
 module.exports = router;

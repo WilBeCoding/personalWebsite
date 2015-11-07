@@ -1,22 +1,20 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    meta(name='description', content='')
-    meta(name='author', content='Sergey Pozhilov (GetTemplate.com)')
-    title Wil Rondini
-    link(rel='shortcut icon', href='../images/gt_favicon.png')
-    // Bootstrap
-    link(href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css', rel='stylesheet')
-    // Icon font
-    link(href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', rel='stylesheet')
-    // Fonts
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700')
-    // Custom styles
-    link(rel='stylesheet', href='../stylesheets/style.css')
-    //if lt IE 9
-    script(src='../javascripts/html5shiv.js')
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(name='description', content='')
+  meta(name='author', content='Sergey Pozhilov (GetTemplate.com)')
+  title Wil Rondini
+  link(rel='shortcut icon', href='../images/gt_favicon.png')
+  // Bootstrap
+  link(href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css', rel='stylesheet')
+  // Icon font
+  link(href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', rel='stylesheet')
+  // Fonts
+  link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700')
+  // Custom styles
+  link(rel='stylesheet', href='../stylesheets/style.css')
+  //if lt IE 9
+  script(src='../javascripts/html5shiv.js')
   body
     header#header
       #head.parallax(parallax-speed='2')
@@ -41,18 +39,8 @@ html(lang='en')
                 a(href='/') Home
               li
                 a(href='about') About
-              li.dropdown
-                a.dropdown-toggle(href='#', data-toggle='dropdown')
-                  | More Pages 
-                  b.caret
-                ul.dropdown-menu
-                  li
-                    a(href='sidebar-left.html') Left Sidebar
-                  li
-                    a(href='sidebar-right.html') Right Sidebar
-                  li
-                    a(href='single.html') Blog Post
+              li
+                a(href='music') Music
               li
                 a(href='blog') Blog
           // /.nav-collapse
-          block content
