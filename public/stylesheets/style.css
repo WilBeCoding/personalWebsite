@@ -920,6 +920,10 @@ footer.entry-meta .meta-in {
   float: left;
   margin: 0 10px 0 0;
 }
+
+aside {
+  padding-top: 10;
+}
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {
