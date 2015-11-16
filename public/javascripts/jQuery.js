@@ -20,7 +20,7 @@ var stickyPlaylistFunction = function(){
       $('.playlist').removeClass('sticky'); 
   }
 };
- 
+
 stickyPlaylistFunction();
  
 $(window).scroll(function() {
