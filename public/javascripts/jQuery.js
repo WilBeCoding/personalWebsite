@@ -1,14 +1,31 @@
 $(document).ready(function() {
+
 var x = document.getElementById("form_sample");
 var createform = document.createElement('form'); // Create New Element Form
-x.appendChild(createform);
+// x.appendChild(createform);
 
 // Fetching HTML Elements in Variables by ID.
 var x = document.getElementById("form_sample");
-var createform = document.createElement('form'); // Create New Element Form
-createform.setAttribute("action", ""); // Setting Action Attribute on Form
-createform.setAttribute("method", "post"); // Setting Method Attribute on Form
-x.appendChild(createform);
+// var createform = document.createElement('form'); // Create New Element Form
+// createform.setAttribute("action", ""); // Setting Action Attribute on Form
+// createform.setAttribute("method", "post"); // Setting Method Attribute on Form
+// x.appendChild(createform);
+
+var stickyPlaylist = $('.playlist').offset().top; 
+var stickyPlaylistFunction = function(){
+  var scrollTop = $(window).scrollTop();      
+  if (scrollTop > stickyPlaylist) { 
+      $('.playlist').addClass('sticky');
+  } else {
+      $('.playlist').removeClass('sticky'); 
+  }
+};
+ 
+stickyPlaylistFunction();
+ 
+$(window).scroll(function() {
+    stickyPlaylistFunction();
+});
 
 var heading = document.createElement('h2'); // Heading of Form
 heading.innerHTML = "Contact Form ";
@@ -60,5 +77,12 @@ submitelement.setAttribute("type", "submit");
 submitelement.setAttribute("name", "dsubmit");
 submitelement.setAttribute("value", "Submit");
 createform.appendChild(submitelement);
+console.log('ready hits')
+$(window).load(function(){
+    console.log('jQuery page is working');
+})
+
+
+
 
 });

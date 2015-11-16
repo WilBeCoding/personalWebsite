@@ -45,6 +45,12 @@ body {
   font-weight: 300;
   text-transform: uppercase;
 }
+
+.fixedPos {
+   position: fixed;
+    /*top: 100px;*/
+    /*background: blue;*/
+}
 .navbar-collapse .navbar-nav {
   float: none;
   margin: 0 auto;
@@ -109,6 +115,7 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
+
 /****************************************************************************************
 
 
@@ -133,6 +140,15 @@ body {
 }
 .nav-side > li.active > a {
   color: #bd1550;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 66%;
+    top: -10%;
+    z-index: 100;
+    border-top: 0;
 }
 /*********************************************************************
 
@@ -224,6 +240,11 @@ a:hover {
 
 
 **********************************************************************/
+#header{
+/*background-size: 100% 100%;
+  background-image: linear-gradient(to bottom, rgba(234, 151, 151, 0.5) 0%, 
+    rgba(234, 151, 151, 0.5) 100%), url(../images/bg_head.jpg);
+*/}
 #head {
   /*background: #f4f4f4 url(../images/bg_head.jpg) top center;*/
   background-size: 100% 100%;
@@ -233,7 +254,7 @@ a:hover {
   display: block;
   background-image: linear-gradient(to bottom, rgba(234, 151, 151, 0.5) 0%, 
     rgba(234, 151, 151, 0.5) 100%), url(../images/bg_head.jpg);
-/*   padding: 30px 0 35px 0; */
+   padding: 12px 0 12px 0; 
 }
 #head img.img-circle {
   display: block;
@@ -872,6 +893,8 @@ footer.entry-meta .meta-in {
 #respond {
   margin: 55px 0 0 0;
 }
+
+
 /*********************************************************************
 
 
@@ -922,7 +945,7 @@ footer.entry-meta .meta-in {
 }
 
 aside {
-  padding-top: 10;
+  padding-top: 10%;
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
