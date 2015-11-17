@@ -1,14 +1,7 @@
 footer#footer.topspace
   .container
-    .row
-      .col-md-3.widget
-        h3.widget-title Contact
-          form.form-group
-            input(type='text' placeholder='Name')
-            input(type='text' placeholder='Email')
-            input(type='text' placeholder='Message' style='height: 150px')
-            input(type='submit' value='Submit')
-      .col-md-3.widget
+    .row.bottom
+      .col-md-2.widget
         h3.widget-title Follow me
         .widget-body
           p.follow-me-icons
@@ -20,15 +13,16 @@ footer#footer.topspace
               i.fa.fa-github.fa-2
             a(href='https://www.facebook.com/WilRondini')
               i.fa.fa-facebook.fa-2
-      .col-md-3.widget
-        h3.widget-title Text widget
+      .col-md-9.widget
+        h3.widget-title 
+          form
+            input(type='text' placeholder='Name')
+            input(type='text' placeholder='Email')
+            input(type='text' placeholder='Message' style='height: 150px')
+            input(type='submit' value='Submit')
         .widget-body
-          p
-            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!
-          p
-            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!
-      .col-md-3.widget
-        h3.widget-title Form widget
+      .col-md-1.widget
+        h3.widget-title Contact
         .widget-body
           p
             br

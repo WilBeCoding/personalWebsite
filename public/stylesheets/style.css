@@ -148,7 +148,7 @@ body {
 */    left: 62.5%;
     top: -10%;
     z-index: 100;
-    widows: 25%;
+    width:25%;
 }
 /*********************************************************************
 
@@ -661,11 +661,6 @@ img {
   color: #000000;
   background: none;
 }
-
-.contactForm{
-  height:10%;
-  width:10%;
-}
 /*********************************************************************
 
 
@@ -822,6 +817,18 @@ footer.entry-meta .meta-in {
   margin-top: 0;
   margin-bottom: 30px;
 }
+
+.bottom {
+  margin:0;
+}
+
+.formDiv {
+
+}
+
+.placeholderformDiv{
+  display:none;
+}
 /*********************************************************************
 
 
@@ -946,7 +953,6 @@ footer.entry-meta .meta-in {
   color: #ccc;
   margin: 0 0 20px;
 }
-
 #underfooter {
   background: #191919;
   padding: 15px 0;
@@ -973,8 +979,6 @@ footer.entry-meta .meta-in {
 aside {
   padding-top: 10%;
 }
-
-input { margin-bottom: 10px; }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {
