@@ -144,11 +144,11 @@ body {
 
 .sticky {
     position: fixed;
-    width: 100%;
-    left: 66%;
+/*    width: 100%;
+*/    left: 62.5%;
     top: -10%;
     z-index: 100;
-    border-top: 0;
+    widows: 25%;
 }
 /*********************************************************************
 
@@ -278,14 +278,34 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: black;
+  font-weight: bold;
   margin: 5px 0 0;
+  text-shadow:1px 1px 0 #fff,
+  -1px -1px 0 #fff,
+  1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  0px 1px 0 #fff,
+  1px 0px 0 #fff,
+  0px -1px 0 #fff,
+  -1px 0px 0 #fff,
+  4px 4px 3px #000;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: black;
+  font-weight: bold;
+  text-shadow:1px 1px 0 #fff,
+  -1px -1px 0 #fff,
+  1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  0px 1px 0 #fff,
+  1px 0px 0 #fff,
+  0px -1px 0 #fff,
+  -1px 0px 0 #fff,
+  4px 4px 3px #000;
 }
 .home #head {
   padding: 90px 0;
@@ -641,6 +661,11 @@ img {
   color: #000000;
   background: none;
 }
+
+.contactForm{
+  height:10%;
+  width:10%;
+}
 /*********************************************************************
 
 
@@ -921,6 +946,7 @@ footer.entry-meta .meta-in {
   color: #ccc;
   margin: 0 0 20px;
 }
+
 #underfooter {
   background: #191919;
   padding: 15px 0;
@@ -947,6 +973,8 @@ footer.entry-meta .meta-in {
 aside {
   padding-top: 10%;
 }
+
+input { margin-bottom: 10px; }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {

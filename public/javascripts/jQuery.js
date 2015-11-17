@@ -12,6 +12,8 @@ var x = document.getElementById("form_sample");
 // x.appendChild(createform);
 
 var stickyPlaylist = $('.playlist').offset().top; 
+
+
 var stickyPlaylistFunction = function(){
   var scrollTop = $(window).scrollTop();      
   if (scrollTop > stickyPlaylist) { 
