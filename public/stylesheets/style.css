@@ -951,7 +951,7 @@ footer.entry-meta .meta-in {
   font-size: 0.9375rem;
   text-transform: uppercase;
   color: #ccc;
-  margin: 0 0 20px;
+  /*margin: 0 0 20px;*/
 }
 #underfooter {
   background: #191919;

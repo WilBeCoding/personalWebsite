@@ -10,23 +10,36 @@ var x = document.getElementById("form_sample");
 // createform.setAttribute("action", ""); // Setting Action Attribute on Form
 // createform.setAttribute("method", "post"); // Setting Method Attribute on Form
 // x.appendChild(createform);
-
 var stickyPlaylist = $('.playlist').offset().top; 
-
+var footerStop = $('#footer').offset().top;
 
 var stickyPlaylistFunction = function(){
   var scrollTop = $(window).scrollTop();      
-  if (scrollTop > stickyPlaylist) { 
+  if(scrollTop > stickyPlaylist) { 
       $('.playlist').addClass('sticky');
-  } else {
-      $('.playlist').removeClass('sticky'); 
   }
+  else if(scrollTop === 50){
+    console.log("this hits");
+  }
+  else {
+    $('.playlist').removeClass('sticky'); 
+  }
+  console.log(scrollTop);
 };
+
+// var stopOnFooterFunction = function(){
+//   var scrollTop = $(window).scrollTop();
+//   if(scrollTop => 680){
+//     console.log('Logged');
+//   }
+// }
+
 
 stickyPlaylistFunction();
  
 $(window).scroll(function() {
     stickyPlaylistFunction();
+    // stopOnFooterFunction();
 });
 
 var heading = document.createElement('h2'); // Heading of Form
