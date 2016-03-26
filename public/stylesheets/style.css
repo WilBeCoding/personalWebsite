@@ -129,6 +129,30 @@ body {
   font-weight: 300;
   margin-top: -0.37em;
 }
+
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.cover.playing {
+    border: 2px solid #e45343;
+}
+
+.spotify-button {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    cursor: pointer;
+}
 .nav-side > li > a {
   padding-top: 5px;
   padding-bottom: 5px;
